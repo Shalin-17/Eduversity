@@ -12,11 +12,21 @@ nav{
     z-index: 10;
 }
 .navlogo{
-    width: 150px;
+    width: 120px;
 }
 nav ul li{
     display: inline-block;
     list-style-type: none;
     margin: 5px 20px;
     font-size: 16px;
+}
+.dark_nav{
+     background: #3f95cb;
+     transition: 0.50s;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px){
+
 }
