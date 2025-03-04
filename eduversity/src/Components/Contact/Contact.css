@@ -47,20 +47,31 @@
 
 }
 .btn-submit{
-background: #3f95cb;
-color: white;
-padding: 14px 25px;
-font-size: 16px;
-border-radius: 30px;
-cursor: pointer;
-border: 0;
-outline: 0;
-display: inline-flex;
-align-items: center;
-justify-content: center;
+    background: #3f95cb;
+    color: white;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .contact-col span{
     margin-left: 10%;
     display: block;
     margin: 20px 0;
+}
+
+/* Media  Query */
+@media (max-width: 700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+
 }
